@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-premium/textura-de-chocolate-derretido_1014206-25.jpg);
+    background-repeat: no-repeat;
+    background-size: 2300px 2300px;
+}
+.ingredientes{
+    text-align: center;
+    background-color:bisque;
+    border: 20px solid black;
+    padding: 100px;
+    width: 5px auto;
+    margin: 10px 620px;
+}
+.receita{
+    text-align: center;
+    background-color:bisque;
+    border: 20px solid black;
+    padding: 100px;
+    width: 5px auto;
+    margin: 10px 620px;
+}

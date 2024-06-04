@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <script type="text/javascript" src="Theconversor.js"></script>
+    <link rel="stylesheet" type="text/css" href="convertor.css"></link>
+</head>
+<body>
+  <div>
+    <form name="fichadatrocademoedas">
+      <h2>Conversor de moedas</h2>
+      De:<select name="de">
+        <option  value="Dolar">Dolar</option>
+        <option  value="Euro">Euro</option>
+        <option  value="Real" selected >Real</option>
+      </select>
+      <br>
+      <br>
+      Para:<select name="para">
+        <option  value="Dolar" selected >Dolar</option>
+        <option  value="Euro">Euro</option>
+        <option  value="Real">Real</option>
+      </select>
+      <br>
+      <br>
+      Quantia:<input type="text" name="Quantia">
+      <button id="btCalcular"onclick = "Calcular()">calcular</button>
+     <br> 
+     <br>
+      Resultado:<input type = "text"  name="Resultado" disabled />
+    </form>
+  </div>
+
+</body>
+</html>
